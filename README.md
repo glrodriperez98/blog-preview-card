@@ -63,8 +63,6 @@ css
 ```
 ```
 css
-Copy
-Edit
 .title a:hover {
   color: hsl(47, 88%, 63%);
 }
