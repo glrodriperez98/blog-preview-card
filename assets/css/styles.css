@@ -1,0 +1,95 @@
+body {
+    background-color:hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 0px #000;
+    width: 320px;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .card img.header-img {
+    width: 100%;
+    border-radius: 0.75rem;
+  }
+  
+  .tag {
+    background-color:hsl(47, 88%, 63%);
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    width: fit-content;
+  }
+  
+  .published {
+    font-size: 0.75rem;
+    color:hsl(0, 0%, 7%);
+  }
+  
+  .title a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:hsl(0, 0%, 7%);
+    text-decoration: none;
+  }
+
+  .title a:hover {
+    color: hsl(47, 88%, 63%);
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: auto;
+  }
+  
+  .author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  .author-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .attribution {
+    margin: 15px;
+    font-size: 11px; 
+    text-align: center;
+}
+  .attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+.attribution a:active {
+    color: purple;
+}
