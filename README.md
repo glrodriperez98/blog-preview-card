@@ -26,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog Preview Card Screenshot](./screenshot.jpg)
+![Blog Preview Card Screenshot - Desktop](./assets/images/blog-post-final-desktop.png)
+![Blog Preview Card Screenshot - Mobile](./assets/images/blog-post-final-mobile.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Blog Preview Card Challenge Solution](https://github.com/glrodriperez98/blog-preview-card)
+- Live Site URL: [Blog Preview Card Challenge Live](https://glrodriperez98.github.io/blog-preview-card/)
 
 ## My process
 
@@ -49,7 +50,8 @@ This project helped reinforce key foundational concepts such as flexbox layout a
 
 #### A couple of snippets I’m proud of:
 
-```css
+```
+css
 .card {
   background-color: white;
   border-radius: 1rem;
@@ -58,24 +60,29 @@ This project helped reinforce key foundational concepts such as flexbox layout a
   flex-direction: column;
   gap: 1rem;
 }
+```
+```
 css
 Copy
 Edit
 .title a:hover {
   color: hsl(47, 88%, 63%);
 }
-These snippets show how I used Flexbox and subtle hover styling to enhance both structure and interactivity.
+```
+These snippets show how I used Flexbox and subtle hover styling to enhance both structure and interactivity. It took me some time to work out the specific shape for the box-shadow and that is what I am most proud of for this project.
 
-Continued development
+### Continued development
 I'd like to continue improving my skills in responsive design and accessibility. For future versions of this project, I might explore how to make the card responsive across multiple screen sizes or include ARIA labels for better screen reader support.
 
-Useful resources
-CSS Tricks - Flexbox Guide – Great for understanding Flexbox layout behavior.
+### Useful resources
+[***CSS Tricks - Flexbox Guide***](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-Google Fonts – Used for font styling.
+## Author
+Gabriel L. Rodriguez Perez
 
-Author
 Frontend Mentor - @glrodriperez98
 
-Acknowledgments
+Github - glrodriperez98
+
+## Acknowledgments
 Thanks to Frontend Mentor for providing this project and layout. The challenge structure really helped me focus on the design-to-code process in a clean, achievable way.
